@@ -1,9 +1,12 @@
 [submodule "meta-openinkpot"]
 	path = meta-openinkpot
-	url = https://github.com/lunohod/meta-openinkpot.git
-[submodule "meta-openembedded"]
-	path = meta-openembedded
+	branch = master
+	url = https://github.com/OpenInkpot/meta-openinkpot.git
+[submodule "oe-core"]
+	path = oe-core
+	branch = dizzy
 	url = git://git.openembedded.org/meta-openembedded
 [submodule "poky"]
 	path = poky
+	branch = dizzy
 	url = git://git.yoctoproject.org/poky
